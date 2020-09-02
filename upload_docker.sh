@@ -6,6 +6,7 @@
 # Step 1:
 # Create dockerpath
 # dockerpath=<your docker ID/path>
+dockerpath=calebikhuohon/ml-microservice-k8s
 
 # Step 2:  
 # Authenticate & tag
@@ -13,3 +14,5 @@ echo "Docker ID and Image: $dockerpath"
 
 # Step 3:
 # Push image to a docker repository
+docker tag ml-microservice-k8s $dockerpath
+docker push $dockerpath
