@@ -1,4 +1,4 @@
-<include a CircleCI status badge, here>
+[![calebikhuohon](https://circleci.com/gh/calebikhuohon/ml-microservice-kubernetes.svg?style=svg)](https://app.circleci.com/pipelines/github/calebikhuohon/ml-microservice-kubernetes)
 
 ## Project Overview
 
